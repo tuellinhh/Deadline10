@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Inter";
+    font-family: 'Inter', sans-serif;
 }
 .header {
   width: 100%;
@@ -192,6 +192,9 @@
     gap: 136px;
     align-items: center;
 }
+.logo-main {
+    margin-right: 4px;
+}
 
 .container3 {
     width: 1152px;
@@ -291,7 +294,6 @@
     width: 231px;
 }
 
-
 .section2 {
     margin-top: 42px;
     width: 100%;
@@ -372,7 +374,6 @@
     height: 160px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 72px;
 }
 .inner-content-5 {
@@ -383,11 +384,13 @@
     gap: 8px;
 }
 .main-title-5 {
+    display: flex;
+    flex-direction: column;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
     color: #4D4D4D;
-    width: 380px;
+    width: 540px;
 }
 .main-content-5 {
     font-weight: 400;
@@ -567,6 +570,7 @@
     height: 506px;
     display: flex;
     justify-content: center;
+    margin-bottom: 94.6px ;
 }
 .box-content-8 {
     width: 1152px;
@@ -807,3 +811,6 @@
     line-height: 20px;
     color: #ffffff;
 }
+
+
+
