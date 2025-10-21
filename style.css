@@ -549,10 +549,10 @@
     color: #89939E;
 }
 .nav-7 {
-    width: 748px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    height: 48px;
+    gap: 32px;;
 }
 .main-nav-7 {
     width: 493px;
@@ -560,7 +560,7 @@
     display: flex;
     gap: 41px;
     align-items: center;
-    justify-content: center;
+   
 }
 .meet-all-customer {
     width: 223px;
@@ -734,7 +734,7 @@
   width: 1152px;
   display: flex;
   align-items: flex-start; 
-  justify-content: space-between;
+  
   gap: 125px;
   padding: 64px 0;
 }
